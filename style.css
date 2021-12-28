@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color:#092685;
+    padding: 10px;
+    justify-content: space-around;
+}
+header h2{
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+li{
+    margin-left: 20px;
+    display: inline-block;
+}
+.sign{
+    margin-left: 600px;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.log{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    align-items: center;
+}
+section h2{
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#content{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #092685;
+}
+#container{
+    border-bottom: 1px solid #092685;
+    margin-top : 50px;
+}
+#container h1{
+    background-color: #092685;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.product-1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.produ-1{
+    padding: 15px;
+    border-radius: 8px;
+    border-bottom: 3px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid rgb(206, 206, 206);
+    border-right: 1px solid gray;
+}
+
+.product-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.more{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: none;
+    padding:15px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 5px;
+    color: white;
+    font-weight:bold ;
+    background-color: #092685;
+    cursor: pointer;
+}
+#us-all{
+    background-image: url("./people-working-in-their-office.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin-top: 50px;
+}
+.us{
+    margin: auto;
+    width: 80%;
+    color: white;
+    background-color: #092685;
+    padding:10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #092685;
+}
+img{
+    cursor: pointer;
+}
