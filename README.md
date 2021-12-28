@@ -19,3 +19,4 @@
 <h1>Pre-requisitos</h1>
 <p>Ter alguma plataforma de code como o <a href="https://code.visualstudio.com/">VSCode</a> que permita o uso das tecnologias <a href ="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a> e <a href ="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></p>
 
+<a href ="https://pedantic-fermi-df4539.netlify.app">Projeto na Web</a>
